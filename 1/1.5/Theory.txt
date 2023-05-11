@@ -1,0 +1,5 @@
+"When a function calls itself until a specified condition (base case) is met."
+
+In recursion, time complexity is the number of function calls made
+and space complexity is the stack space OR the maximum number of entries
+in the stack that await execution.
