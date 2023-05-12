@@ -1,1 +1,5 @@
+Subarray: A contiguous sequence of elements of a data structure. 
+
 Subsequence: A contiguous or non-contiguous sequence of elements that maintains the order in which the elements occur in the original data structure
+
+NOTE: Every subarray is a subsequence, but the vice-versa is not true
