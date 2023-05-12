@@ -1,0 +1,1 @@
+Subsequence: A contiguous or non-contiguous sequence of elements that maintains the order in which the elements occur in the original data structure
