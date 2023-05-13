@@ -1,5 +1,5 @@
 // TC: O(NlogN), logN to divide array into 2 subarrays and N to merge them back
-// SC: O(1)
+// SC: O(1) + O(N) auxillary stack space
 
 // NOTE: Worst-case time complexity would be O(N^2), when pivot is 
 //       greatest or smallest element of array
