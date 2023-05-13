@@ -1,3 +1,6 @@
+// TC: O(NlogN), logN to divide array into 2 subarrays and N to merge them back
+// SC: O(1)
+
 /*
 
 Step 1: Pick a pivot (any, here it is first),
