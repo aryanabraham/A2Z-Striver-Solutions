@@ -28,7 +28,7 @@ void printNums(vector<int>& sol){
 }
 
 void subSeq(int idx, vector<int>& sol){
-    if(idx>=nums.size()){
+    if(idx==nums.size()){
         printNums(sol);
         return;
     }
