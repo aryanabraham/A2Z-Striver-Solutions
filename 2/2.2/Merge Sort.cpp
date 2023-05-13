@@ -1,3 +1,6 @@
+// TC: O(NlogN), logN to divide array into 2 subarrays and N to merge them back
+// SC: O(N), two auxillary arrays of size = mid used
+
 #include <bits/stdc++.h>
 using namespace std;
 
