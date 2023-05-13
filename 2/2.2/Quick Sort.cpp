@@ -1,6 +1,9 @@
 // TC: O(NlogN), logN to divide array into 2 subarrays and N to merge them back
 // SC: O(1)
 
+// NOTE: Worst-case time complexity would be O(N^2), when pivot is 
+//       greatest or smallest element of array
+
 /*
 
 Step 1: Pick a pivot (any, here it is first),
