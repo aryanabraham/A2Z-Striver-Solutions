@@ -26,17 +26,19 @@ Step 3: Repeat till there is only 1 element left
     
 */
 
+// Quick Sort 
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int placePivot(int low, int high, vector<int>& nums){
-    int n=nums.size();
     int i=low, j=high;
+    int n=nums.size();    
     int pivot=nums[low];
     
     while(i<j){
-        while(i<=high&&nums[i]<=pivot) i++;
-        while(j>=low&&nums[j]>pivot) j--;
+        while(i<=high&&nums[i]<=pivot) { i++; }
+        while(j>=low&&nums[j]>pivot) { j--; }
         
         if(i<j) swap(nums[i], nums[j]);
     }
@@ -46,15 +48,15 @@ int placePivot(int low, int high, vector<int>& nums){
 
 void quickSort(int low, int high, vector<int>& nums){
     if(low<high){
-        int pi=placePivot(low, high, nums);
-        
-        quickSort(low, pi-1, nums);
-        quickSort(pi+1, high, nums);
+        int partIdx=placePivot(low, high, nums);
+    
+        quickSort(low, partIdx-1, nums);
+        quickSort(partIdx+1, high, nums);
     }
 }
 
 int main(){
-    vector<int> nums={30, 10, 50, 20, 40};
+    vector<int> nums={20, 50, 10, 30, 40};
     
     quickSort(0, nums.size()-1, nums);
     for(auto &it: nums)
