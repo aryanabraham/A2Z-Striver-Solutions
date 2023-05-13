@@ -26,8 +26,6 @@ Step 3: Repeat till there is only 1 element left
     
 */
 
-// Quick Sort 
-
 #include <bits/stdc++.h>
 using namespace std;
 
