@@ -1,7 +1,7 @@
 class Solution {
 public:
     void genUniqueCombos(int idx, int target, vector<int>& candidates, vector<int>& temp, vector<vector<int>>& sol){
-        if(idx==candidates.size()||target<=0){
+        if(idx==candidates.size()||!target){
             if(!target) sol.push_back(temp);
             return;
         }
