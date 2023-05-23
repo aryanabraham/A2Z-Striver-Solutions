@@ -4,27 +4,24 @@
 // NOTE: Worst-case time complexity would be O(N^2), when pivot is 
 //       greatest or smallest element of array
 
-/*
-
-Step 1: Pick a pivot (any, here it is first),
-        and place it in its "correct" place
+// Step 1: Pick a pivot (any, here it is first),
+//         and place it in its "correct" place
         
-        1.1 Initialize i as low and j as high
-        1.2 Increment i till first element greater
-            than pivot is found
-        1.3 Decrement j till first element lesser 
-            than pivot is found
-        1.4 Swap nums[i] and nums[j]
-        1.5 Repeat till i<j
-        1.6 Place pivot at index of j
+//         1.1 Initialize i as low and j as high
+//         1.2 Increment i till first element greater
+//             than pivot is found
+//         1.3 Decrement j till first element lesser 
+//             than pivot is found
+//         1.4 Swap nums[i] and nums[j]
+//         1.5 Repeat till i<j
+//         1.6 Place pivot at index of j
 
-Step 2: Place elements smaller than pivot on
-        its left and larger than it on its right
+// Step 2: Place elements smaller than pivot on
+//         its left and larger than it on its right
         
-Step 3: Repeat till there is only 1 element left
-        in an array
-    
-*/
+// Step 3: Repeat till there is only 1 element left
+//         in an array
+
 
 #include <bits/stdc++.h>
 using namespace std;
