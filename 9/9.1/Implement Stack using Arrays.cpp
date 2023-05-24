@@ -13,8 +13,7 @@ public:
 void MyStack :: push(int x)
 {
     // Your Code
-    top++;
-    arr[top]=x;
+    arr[top++]=x;
 }
 
 //Function to remove an item from top of the stack.
