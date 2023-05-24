@@ -1,3 +1,6 @@
+/* 
+
+The structure of the class is
 class MyStack
 {
 private:
