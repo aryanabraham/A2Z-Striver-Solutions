@@ -1,0 +1,7 @@
+LIFO: "Last In, First Out"
+
+<< O P E R A T I O N S >>
+
+1. push(): Add an element on top of the stack
+2. pop(): Remove the element on top of stack
+3. top(): Return the element on top of stack
